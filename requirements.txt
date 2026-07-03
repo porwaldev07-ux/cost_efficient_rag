@@ -6,3 +6,4 @@ pydantic-settings
 pydantic
 numpy
 tiktoken
+sentence-transformers
