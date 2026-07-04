@@ -1,0 +1,26 @@
+[
+  {
+    "id": "case_001",
+    "input": "What prevents cross-tenant data leaks in the system?",
+    "expected_output": "Security filters isolate tenant traffic and routing logic prevents data cross-over.",
+    "output_v1": "Security filters explicitly isolate independent tenant traffic. Routing logic blocks leaks.",
+    "output_v2": "The architecture is built cleanly on microservices. It scales horizontally using containerized clusters, making data highly accessible. It provides an efficient platform for managing cross-tenant operations while keeping resource configurations running smoothly.",
+    "notes": "Adversarial: V1 is short and accurate. V2 is incredibly verbose but completely avoids answering the question."
+  },
+  {
+    "id": "case_002",
+    "input": "Does local storage require a network token?",
+    "expected_output": "No, local embedded storage operates entirely on-disk and does not check tokens.",
+    "output_v1": "Yes, you must configure an external cloud authentication token to synchronize data points.",
+    "output_v2": "No, local storage is fully disk-embedded and runs with zero external token requirements.",
+    "notes": "V1 gives false information. V2 is completely accurate."
+  },
+  {
+    "id": "case_003",
+    "input": "What file formats does the ingest system accept?",
+    "expected_output": "The ingestion framework processes document files structured in markdown (.md) formats.",
+    "output_v1": "It scans directory structures and parses markdown documents matching the .md layout filter.",
+    "output_v2": "It is highly modular and accepts any file format you pass it since it relies on advanced system-level plugins.",
+    "notes": "V1 matches system specs. V2 generalizes incorrectly."
+  }
+]

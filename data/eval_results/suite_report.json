@@ -1,0 +1,128 @@
+{
+  "suite_summary": {
+    "total_evaluation_cases": 3,
+    "config_v1_total_wins": 0,
+    "config_v2_total_wins": 0,
+    "total_ties": 3,
+    "calculated_position_flip_rate": "100.00%",
+    "config_v1_win_percentage": "0.00%",
+    "config_v2_win_percentage": "0.00%",
+    "overall_declared_winner": "TIE / INCONCLUSIVE"
+  },
+  "detailed_case_records": [
+    {
+      "forward_winner": "V1",
+      "flipped_winner": "V2",
+      "is_flip_detected": true,
+      "final_case_winner": "TIE",
+      "forward_verdict": {
+        "correctness": {
+          "rationale": "Output A matches the ground truth accurately.",
+          "winner": "A"
+        },
+        "faithfulness": {
+          "rationale": "Both remain faithful to the provided source text.",
+          "winner": "TIE"
+        },
+        "instruction_following": {
+          "rationale": "Output A was concise and followed constraints.",
+          "winner": "A"
+        },
+        "overall_summary": "A was direct and accurate, avoiding unnecessary verbosity.",
+        "final_declared_winner": "A"
+      },
+      "flipped_verdict": {
+        "correctness": {
+          "rationale": "Output A matches the ground truth accurately.",
+          "winner": "A"
+        },
+        "faithfulness": {
+          "rationale": "Both remain faithful to the provided source text.",
+          "winner": "TIE"
+        },
+        "instruction_following": {
+          "rationale": "Output A was concise and followed constraints.",
+          "winner": "A"
+        },
+        "overall_summary": "A was direct and accurate, avoiding unnecessary verbosity.",
+        "final_declared_winner": "A"
+      }
+    },
+    {
+      "forward_winner": "V1",
+      "flipped_winner": "V2",
+      "is_flip_detected": true,
+      "final_case_winner": "TIE",
+      "forward_verdict": {
+        "correctness": {
+          "rationale": "Output A matches the ground truth accurately.",
+          "winner": "A"
+        },
+        "faithfulness": {
+          "rationale": "Both remain faithful to the provided source text.",
+          "winner": "TIE"
+        },
+        "instruction_following": {
+          "rationale": "Output A was concise and followed constraints.",
+          "winner": "A"
+        },
+        "overall_summary": "A was direct and accurate, avoiding unnecessary verbosity.",
+        "final_declared_winner": "A"
+      },
+      "flipped_verdict": {
+        "correctness": {
+          "rationale": "Output A matches the ground truth accurately.",
+          "winner": "A"
+        },
+        "faithfulness": {
+          "rationale": "Both remain faithful to the provided source text.",
+          "winner": "TIE"
+        },
+        "instruction_following": {
+          "rationale": "Output A was concise and followed constraints.",
+          "winner": "A"
+        },
+        "overall_summary": "A was direct and accurate, avoiding unnecessary verbosity.",
+        "final_declared_winner": "A"
+      }
+    },
+    {
+      "forward_winner": "V1",
+      "flipped_winner": "V2",
+      "is_flip_detected": true,
+      "final_case_winner": "TIE",
+      "forward_verdict": {
+        "correctness": {
+          "rationale": "Output A matches the ground truth accurately.",
+          "winner": "A"
+        },
+        "faithfulness": {
+          "rationale": "Both remain faithful to the provided source text.",
+          "winner": "TIE"
+        },
+        "instruction_following": {
+          "rationale": "Output A was concise and followed constraints.",
+          "winner": "A"
+        },
+        "overall_summary": "A was direct and accurate, avoiding unnecessary verbosity.",
+        "final_declared_winner": "A"
+      },
+      "flipped_verdict": {
+        "correctness": {
+          "rationale": "Output A matches the ground truth accurately.",
+          "winner": "A"
+        },
+        "faithfulness": {
+          "rationale": "Both remain faithful to the provided source text.",
+          "winner": "TIE"
+        },
+        "instruction_following": {
+          "rationale": "Output A was concise and followed constraints.",
+          "winner": "A"
+        },
+        "overall_summary": "A was direct and accurate, avoiding unnecessary verbosity.",
+        "final_declared_winner": "A"
+      }
+    }
+  ]
+}
